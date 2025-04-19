@@ -10,7 +10,7 @@ print(json_data)
 
 # prepare output files
 fout = open("games2024.csv", "w")
-fout.writelines('GameDate, GameID, Visitor, Home, HomeWin')
+fout.writelines('GameDate,GameID,Visitor,Home,HomeWin')
 
 current_dt = datetime.datetime.now() 
 
